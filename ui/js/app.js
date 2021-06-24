@@ -9,7 +9,8 @@ digimons.then(digimons => {
     accumulator += `
       <li class="card">
       <img class="card-image" src="${digimon.img}"> 
-      <h2 class="card-title"><strong>${digimon.name}</strong>: ${digimon.level}</h2>
+      <h2 class="card-title">${digimon.name}</h2>
+      <h3>Level: ${digimon.level}</h3>
       <h2>Biggest bet: 123123</h2>
       <form action="#action">
       <h2 class="card-title">make your bet</h2>

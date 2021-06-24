@@ -25,10 +25,10 @@ h1 {
 
 .card {
   list-style: none;
-  padding: 40px;
+  padding: 150px;
   color: #222;
   text-align: center;
-  border-radius: 20px;
+  border-radius: 1px;
   position: relative;
 }
 
@@ -67,6 +67,7 @@ h1 {
 }
 
 .card-image {
+  border-radius: 40px;
   height: 180px;
   position: relative;
   z-index: 2;
